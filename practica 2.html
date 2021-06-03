@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1>*1*</h1>
+        <h1>Pagina de Bienvenida</h1>
+        <p id="mensaje" style="color: red;">Este es un parrafo</p>
+        <script>
+            //Escribe Certus en el parrafo cuyo id es "mensaje"
+            document.getElementById('mensaje').innerHTML="Certus";
+            //Escribe el elemnto div en esta posición directamente en la página
+            document.write("<div style='background-color:#776199;'>Bienvenido</div>");
+            //Muestra un mensaje de alerta
+            window.alert('Bienvenido a Certus');
+            //Escribe en la consola del navegador un mensaje
+            console.log('Mensaje en la consola del navegador');
+        </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1>*2*</h1>
+    <div id="mensaje"></div>
+    <div id="resultado"></div>
+    <script>
+        //Declara una variable llamada mensaje del tipo string
+        var mensaje = "Bienvenido a Certus";
+        //Escribe el mensaje en la pagina web
+        document.getElementById('mensaje').innerHTML=mensaje;
+        //Declara una variable llamada valor 1 del tipo numérica
+        var valor1 = 10;
+        //Declara una variable llamada valor 2 del tipo numérica
+        var valor2 = 30;
+        //Suma los valores valor 1 y valor 2
+        var suma = valor1 + valor2;
+        //Escribiste el resultado de la suma en la pagina web
+        document.getElementById('resultado').innerHTML="Resultado: "+suma;
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1>*3*</h1>
+    <div id="resultado2"></div>
+    <script>
+        //Declara una variable llamada valor 1 del tipo numérica
+        var valor3 = 10;
+        //Declara una variable llamada valor 2 del tipo numérica
+        var valor4 = 30;
+        //Realiza un calculo
+        var calculo = valor3/2 + valor4*5 - 100;
+        //Escribiste el resultado de la suma en la pagina web
+        document.getElementById('resultado2').innerHTML="Resultado: "+calculo;
+    </script>
+    <a href="practica 3.html">Siguiente practica</a>
+</body>
+</html>
